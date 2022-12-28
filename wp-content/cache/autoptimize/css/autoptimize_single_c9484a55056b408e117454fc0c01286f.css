@@ -11353,6 +11353,7 @@ body.mce-content-body {
     right: 0;
     width: 100%;
     z-index: 800;
+    height: 100%;
     overflow: auto !important;
     border-top: 1px solid #e9e9e9;
     border-bottom: 1px solid #e9e9e9;
@@ -15892,4 +15893,17 @@ body.lg-on .lg-backdrop {
 }
 body.lg-on .lg-outer {
   z-index: 999999;
+}
+
+.section-subtitle {
+  background-color: #000;
+  color: white;
+}
+
+.mobile-menu-open {
+  height: 100%;
+}
+
+.mobile-menu-close {
+  height: 0%;
 }
